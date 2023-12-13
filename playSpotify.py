@@ -20,7 +20,7 @@ def openSpotify():
 
 def playspotify(query):  
     speak("Searching Your Song in Spotify...")
-    os.system(f"start {r"C:\Users\Admin\OneDrive\Desktop\Spotify.lnk"}")
+    os.system(f"start {r"C:\Users\HP\Desktop\Spotify.lnk"}")
     time.sleep(5)                                    
     gui.hotkey('ctrl','l')
     query=query.replace("in spotify","")
@@ -41,7 +41,7 @@ def playspotify(query):
 
 def nextSong():
     speak("Playing Next Song...")
-    os.system(f"start {r"C:\Users\Admin\OneDrive\Desktop\Spotify.lnk"}")
+    os.system(f"start {r"C:\Users\HP\Desktop\Spotify.lnk"}")
     time.sleep(1)
     gui.hotkey('ctrl','right')
     time.sleep(1)
@@ -49,7 +49,7 @@ def nextSong():
 
 def lastSong():
     speak("Playing Previous Song...")
-    os.system(f"start {r"C:\Users\Admin\OneDrive\Desktop\Spotify.lnk"}")
+    os.system(f"start {r"C:\Users\HP\Desktop\Spotify.lnk"}")
     time.sleep(1)
     gui.hotkey('ctrl','left')
     gui.hotkey('ctrl','left')
@@ -58,14 +58,14 @@ def lastSong():
     
 def pauseSong():
     speak("Pausing Song...")
-    os.system(f"start {r"C:\Users\Admin\OneDrive\Desktop\Spotify.lnk"}")
+    os.system(f"start {r"C:\Users\HP\Desktop\Spotify.lnk"}")
     time.sleep(1)
     gui.press('space')
     gui.hotkey('alt','tab')
     
 def resumeSong():
     speak("Resuming Song...")
-    os.system(f"start {r"C:\Users\Admin\OneDrive\Desktop\Spotify.lnk"}")
+    os.system(f"start {r"C:\Users\HP\Desktop\Spotify.lnk"}")
     time.sleep(1)
     gui.press('space')
     gui.hotkey('alt','tab')
